@@ -32,8 +32,37 @@
    </section>
 
    <!-- Dashboard -->
-    <section>
-
+    <section class="bg-white rounded-lg p-6 mt-5 flex justify-between">
+        <div class="flex items-center gap-3 bg-gray-100 rounded-lg p-5 w-80">
+            <div class="bg-white rounded-full px-3 py-3">
+                <img src="assets/checkbox.png" alt="">
+            </div>
+            <div>
+                <h3 class="text-lg font-semibold">Task Assigned</h3>
+                <span class="text-3xl font-bold text-gray-700">05</span>
+            </div>
+        </div>
+        <div class="bg-gradient-to-r from-blue-700 to to-blue-500 flex items-center gap-3 w-96">
+            <img src="assets/board.png" alt="">
+            <span class="text-white text-lg font-semibold">Discover Something <br> New Today!</span>
+        </div>
+        <div class="flex items-center gap-3 bg-gray-100 rounded-lg p-5 w-80">
+            <div class="bg-white rounded-full px-3 py-3">
+                <img src="assets/calender.png" alt="">
+            </div>
+            <h3 class="text-lg font-semibold">Wed, <br> <span>Jul 28 2025</span></h3>
+        </div>
     </section>
+    <!-- Task Cards -->
+     <section class="grid grid-cols-3 gap-4 bg-white">
+        <div class="bg-gray-100 p-4 rounded-lg">
+            <p>ShopEase</p>
+            <h3>Fix Mobile Button Issue </h3>
+            <p>Debug using Chrome DevTools, check for overlapping elements, and ensure onClick works properly
+            and ensure onClick works properly</p>
+            <p>Deadline: <br> <span>21 March 2025</span></p>
+            <button class="bg-blue-800 text-white px-3 py-1 rounded mt-2">Completed</button>
+        </div>
+     </section>
 </body>
 </html>
