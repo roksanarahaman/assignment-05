@@ -20,7 +20,7 @@
         </div>
     </div>
     <div>
-        <button class="bg-blue-800 text-white px-3 py-1 rounded mt-2">Back to Desk</button>
+        <button id="back-button" class="bg-blue-800 text-white px-3 py-1 rounded mt-2 cursor-pointer">Back to Desk</button>
     </div>
    </section>
 
@@ -28,21 +28,28 @@
     <h1 class="font-bold text-2xl text-center">Blogs</h1>
     <section class="mx-3 my-3">
         <div class="bg-white rounded-lg mt-3 mb-3">
-            <h3>Question-1: What are the different ways to select an element in the DOM?</h3>
+            <h3 class="font-medium">Question-1: What are the different ways to select an element in the DOM?</h3>
+            <p>By ID, By Class Name, By Tag Name</p>
         </div>
         <div class="bg-white rounded-lg mt-3 mb-3">
-            <h3>Question-2: What is the difference between innerHTML, innerText, and textContent ?</h3>
+            <h3 class="font-medium">Question-2: What is the difference between innerHTML, innerText, and textContent ?</h3>
+            <p>innerHTML sets content inside an element, innerText sets visible text inside an element, textContent sets the text content of an element.</p>
         </div>
         <div class="bg-white rounded-lg mt-3 mb-3">
-            <h3>Question-3: What is event delegation in the DOM?</h3>
+            <h3 class="font-medium">Question-3: What is event delegation in the DOM?</h3>
+            <p>Event delegation is a technique where parent element handles events for multiple child elements.</p>
         </div>
         <div class="bg-white rounded-lg mt-3 mb-3">
-            <h3>Question-4: What is event bubbling in the DOM?</h3>
+            <h3 class="font-medium">Question-4: What is event bubbling in the DOM?</h3>
+            <p>Event bubbling is how events move in the DOM. When we click on an element, the event happens on that element first, then moves up to its parent, then its grandparent, and keeps going until it reaches the top of the document.</p>
         </div>
         <div class="bg-white rounded-lg mt-3 mb-3">
-            <h3>Question-5: How do you create, add, and remove elements using JavaScript?</h3>
+            <h3 class="font-medium">Question-5: How do you create, add, and remove elements using JavaScript?</h3>
+            <p>By adding an element to the dom, by removing an element to the dom, by replacing an element.</p>
         </div>
 
     </section>
+
+    <script src="./script/blog.js"></script>
 </body>
 </html>
